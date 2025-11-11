@@ -1,0 +1,147 @@
+# =========================
+# Node / Frontend
+# =========================
+# dependency folders
+node_modules/
+.npm/
+.pnpm-store/
+.pnp.cjs
+.pnp.js
+
+# production build
+/dist
+/build
+/.vite
+
+# local env files
+.env
+.env.local
+.env.*.local
+.vscode/.env
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# lockfiles (optional – include if you don't want to track them)
+# package-lock.json
+# pnpm-lock.yaml
+# yarn.lock
+
+# editor temp
+*.log
+
+# macOS
+.DS_Store
+
+# =========================
+# Python / Backend
+# =========================
+# virtual environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+htmlcov/
+
+# pipenv / poetry
+Pipfile.lock
+.poetry/
+
+# distributions / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# pip wheel
+*.whl
+
+# dotenv
+.env
+.env.*           # any .env.* files
+
+# SQLite DB (if used)
+*.db
+*.sqlite3
+
+# secrets / keys
+secrets.json
+*.pem
+*.key
+
+# =========================
+# IDEs / editors / OS
+# =========================
+# VSCode
+.vscode/
+.history/
+
+# JetBrains (PyCharm / WebStorm)
+.idea/
+*.iml
+out/
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# =========================
+# Images / uploads / build artifacts
+# =========================
+# optional: ignore saved/generated images or static uploads if you don't want them in repo
+# backend/static/uploads/
+# frontend/public/uploads/
+
+# temporary files
+tmp/
+temp/
+.cache/
+.sass-cache/
+
+# =========================
+# Misc / CI / Tools
+# =========================
+# coverage and test
+coverage/
+.tox/
+.nox/
+
+# celery beat schedule file
+celerybeat-schedule
+
+# logs
+logs/
+*.log
+
+# lock files created by package managers or OS
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# =========================
+# Optional: keep these tracked
+# - If you want to track lockfiles, remove commented lines above
+# - If you want to track .env.example, add it explicitly to repo
+# =========================
