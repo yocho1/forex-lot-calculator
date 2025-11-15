@@ -7,7 +7,6 @@
 
 An intelligent, AI-powered Forex trading calculator that helps traders manage risk and optimize position sizing with real-time insights and advanced metrics.
 
-![Forex Calculator Preview](https://forex-lot-calculator-tau.vercel.app/og-image.png)
 
 ## 🚀 Live Demo
 
